@@ -394,7 +394,7 @@ def main(loop=False ,early_stop=False, save_excel_stats=True,KNN_neighbors=5, sa
         fused_vector, test_vector, m1, m2, flatten, Ax1, Ax2, Ax3, Ay1, Ay2, Ay3 = three_layer_MDCA(x_train, x_test,y_train, model)
         
         for i in range(KNN_neighbors,KNN_neighbors+10):
-            mylogs.info(f'NUMBER OF kNN NEIGHBORS = {KNN_neighbors}')
+            mylogs.info(f'NUMBER OF kNN NEIGHBORS = {i}')
             classifier = KNeighborsClassifier(n_neighbors=i)
             classifier.fit(fused_vector, y_train)
 
