@@ -1,0 +1,17 @@
+
+datasets/FGNET/points/083a17.pts
+*.pts
+*.JPG
+*.dat
+datasets/FGNET/.DS_Store
+*.csv
+*.npy
+*.h5
+*.pyc
+saved_models/model5_85/KNN_model
+dcaFuse/
+saved_models/model586/KNN_model
+*.jpg
+saved_models/
+*.txt
+*.log
